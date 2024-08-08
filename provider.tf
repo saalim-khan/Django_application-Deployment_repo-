@@ -94,16 +94,35 @@ resource "aws_route_table_association" "association-rt" {
 
 #####################creating EC2 instance      ###############
 resource "aws_instance" "my-ec2" {
-  ami           = "ami-0ad21ae1d0696ad58"
+  ami           = "ami-04a81a99f5ec58529"
   instance_type = "t2.micro"
   subnet_id = aws_subnet.my-subnet.id 
-
+  
+  # user_data = <<-EOF
+  #                   #!/bin/bash
+  #                   sudo apt-get update -y
+  #                   sudo apt-get install ca-certificates curl gnupg
+  #                   sudo install -m 0755 -d /etc/apt/keyrings
+  #                   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  #                   sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  #                   echo \
+  #                   "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  #                   "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
+  #                   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  #                   sudo apt-get update -y
+  #                   docker pull <aws-account-id>.dkr.ecr.<region>.amazonaws.com/<repository-name>:<tag>
+  #                   sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+  #                 EOF  
   tags = {
     Name = "ec2-in-mumbai"
   }
 }
 
-
+data "aws_ecr_image" "" {
+  repository_name = "notes_app"
+  image_tag       = "latest596562ffbf887c8ff93925e2dae3ef8edf13caa9"
+  
+}
 
 
 
