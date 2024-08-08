@@ -5,6 +5,7 @@ on:
   push:
     branches: [ main ]
 
+
 env:
   TF_CLOUD_ORGANIZATION: "aws"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
