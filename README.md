@@ -25,7 +25,7 @@ Step4:Deployment on ECS via terraform
 <img src="https://github.com/user-attachments/assets/cab4f798-9f86-40a3-8601-aac5d5af3fe6" alt="Actions ECS Deployment" width="800" height="300">
 
 
-<h2>Run Details</h2>
+<h2>Run Details CICD</h2>
 <img src="https://github.com/user-attachments/assets/9c109b0f-e8a5-435a-9e68-64c513127b3b" alt="run details" width="800" height="300">
 
 
@@ -38,7 +38,7 @@ Step4:Deployment on ECS via terraform
 <html>
 <body>
 
-<h2> Terraform plan in Run details GitHub Actions</h2>
+<h2> Terraform plan in Run details GitHub Actions CICD</h2>
 <img src="https://github.com/user-attachments/assets/d76319cb-4ff4-4d38-b052-e57f5bb2a5d9" alt="Terraform plan" width="800" height="300">
 
 
