@@ -2,7 +2,8 @@
 name: "ECS-Deployment"
 on:
   workflow_dispatch:
-  
+  push:
+  branches: [ main ]
 jobs:
   ECR_ECS_Deployment:
     name: push ECR Image And Deploy To ECS
