@@ -11,24 +11,35 @@ Step4:Deployment on ECS via terraform
 
 
 
+ Github Actions:
+=
 <h2>ECS Deployment yaml file </h2>
 <img src="https://github.com/user-attachments/assets/87b5c4cb-251b-4963-9d60-f0760106d419" alt="ECS.yml" width="800" height="300">
 <img src="https://github.com/user-attachments/assets/7c7126a6-5922-438a-8795-f7b481fa0ff3" alt="ECS.yml" width="800" height="400">
+
+<h2>Worflows </h2>
+<img src="https://github.com/user-attachments/assets/92322873-e816-4a57-9f6c-33ee293d2344" alt="All Workflows" width="800" height="300">
+
+
+<h2>Actions ECS Deployment</h2>
+<img src="https://github.com/user-attachments/assets/cab4f798-9f86-40a3-8601-aac5d5af3fe6" alt="Actions ECS Deployment" width="800" height="300">
+
+
+<h2>Run Details</h2>
+<img src="https://github.com/user-attachments/assets/9c109b0f-e8a5-435a-9e68-64c513127b3b" alt="run details" width="800" height="300">
+
+
+
+
 </body>
 </html>
 
 
-CICD pipeline to Deploy Docker Image on ECR Repository on AWS via Github Actions:
-=
-
-Step5:
-=
 <html>
 <body>
 
-<h2>DockerFile </h2>
-<img src="" alt="DockerFile" width="800" height="300">
-<img src="" alt="Multi Stage DockerFile" width="800" height="300">
+<h2> Terraform plan in Run details GitHub Actions</h2>
+<img src="https://github.com/user-attachments/assets/d76319cb-4ff4-4d38-b052-e57f5bb2a5d9" alt="Terraform plan" width="800" height="300">
 
 
 <h2>Output </h2>
