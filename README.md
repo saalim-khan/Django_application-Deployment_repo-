@@ -41,8 +41,32 @@ Step4:Deployment on ECS via terraform
 <h2> Terraform plan in Run details GitHub Actions CICD</h2>
 <img src="https://github.com/user-attachments/assets/d76319cb-4ff4-4d38-b052-e57f5bb2a5d9" alt="Terraform plan" width="800" height="300">
 
+Step5:Deployment on AWS ECS
+=
+<h2>Terraform Apply </h2>
+<img src="https://github.com/user-attachments/assets/2de799ea-ecd5-4169-b541-c0a1a599f07e" alt="Terraform Apply" width="800" height="300">
+<h2></h2>Cluster on AWS </h2>
+<img src="https://github.com/user-attachments/assets/96852687-e149-4c37-9f24-b75cdf5f3bd0" alt=" Cluster on AWS" width="800" height="300">
+<h2>Django Notes App Cluster on AWS </h2>
+<img src="https://github.com/user-attachments/assets/ce8110f4-0be9-4c9d-94a0-5287616e71dd" alt="Django Notes App Cluster on AWS" width="800" height="300">
 
-<h2>Output </h2>
-<img src="https://github.com/user-attachments/assets/18af9812-a8c4-4359-84a1-0464988ffb73" alt="Notes-app" width="800" height="300">
+<h2>Django Notes App Services  on AWS </h2>
+<img src="https://github.com/user-attachments/assets/6c1ca7f1-4966-47ac-ae29-46b6c71dcfb1" alt="Django Notes App Services on AWS" width="800" height="300">
+
+<h2> Tasks </h2>
+<img src="https://github.com/user-attachments/assets/87f70450-4b06-461c-b3ef-c77c7bec57bb" alt="Task on AWS" width="800" height="300">
+
+
+
+<h2>Task Overview </h2>
+<img src="https://github.com/user-attachments/assets/c0316706-7d67-4fac-a16b-2d85d0c422c4" alt="Django Notes App  on AWS" width="800" height="300">
+
+<h2>Configruations  </h2>
+<img src="https://github.com/user-attachments/assets/1a087c37-73e7-4ff8-a88e-ca15058b5aee" alt="Django Notes App  on AWS" width="800" height="300">
+
+<h2>Output  </h2>
+<h3>Up and Running on http://44.193.200.14:8000/</h3>
+<img src="https://github.com/user-attachments/assets/762629a8-4a8a-47a7-8831-4c02bded06ac" alt="Notes-app" width="800" height="300">
+
 </body>
 </html>
