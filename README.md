@@ -7,7 +7,7 @@ Step4:Deployment on ECS via terraform
 
 <h2>Terraform file </h2>
 <img src="https://github.com/user-attachments/assets/d34fcfea-2dfd-4c76-8f23-eddc20e0e3f0" alt="Terraform code" width="800" height="300">
-<img src="https://github.com/user-attachments/assets/5e42435d-5183-4521-88ca-8cdc490d5bbf" alt="terraform code" width="800" height="400">
+<img src="https://github.com/user-attachments/assets/df0f3a96-2395-4559-a742-3d939818b5291" alt="terraform code" width="800" height="400">
 
 
 
