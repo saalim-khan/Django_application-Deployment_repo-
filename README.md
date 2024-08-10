@@ -2,6 +2,8 @@
 Deployment_repo
 =
 NOTE:-Currently use us-east-1 for this project.Most prefer region for this project is Mumbai(ap-south-1)
+=
+
 Step4:Deployment on ECS via terraform
 =
 <html>
